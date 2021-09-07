@@ -37,3 +37,5 @@ Open my project with your IDE of choice (I use intellij IDEA).
 Add the javafx/lib folder as an external library for the project. For intellij, this means going to "project structure" -> "libraries" -> "add library" ->{javafx location}/lib
 Add the following as a VM argument for the project: --module-path "{full path to your javafx/lib folder}" --add-modules javafx.controls,javafx.fxml,javafx.base,javafx.graphics,javafx.media,javafx.swing,javafx.web
 Build and run the project as normal.
+
+NOTE: The Mosaic.java and MosaicCanvas.java classes were written by the textbook's author. Much of the implementation of RandomMosaicExtinction.java was also written by the author -- my edits are notated with comments.
